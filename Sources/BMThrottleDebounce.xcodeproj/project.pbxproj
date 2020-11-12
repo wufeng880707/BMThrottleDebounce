@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F791D86E255CE27E00A030CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F791D86D255CE27E00A030CE /* AppDelegate.m */; };
+		F791D874255CE27E00A030CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F791D873255CE27E00A030CE /* ViewController.m */; };
+		F791D877255CE27E00A030CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F791D875255CE27E00A030CE /* Main.storyboard */; };
+		F791D879255CE27F00A030CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F791D878255CE27F00A030CE /* Assets.xcassets */; };
+		F791D87C255CE27F00A030CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F791D87A255CE27F00A030CE /* LaunchScreen.storyboard */; };
+		F791D87F255CE27F00A030CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F791D87E255CE27F00A030CE /* main.m */; };
+		F791D88B255CE29800A030CE /* BMThrottle.m in Sources */ = {isa = PBXBuildFile; fileRef = F791D888255CE29800A030CE /* BMThrottle.m */; };
+		F791D88C255CE29800A030CE /* BMDebounce.m in Sources */ = {isa = PBXBuildFile; fileRef = F791D889255CE29800A030CE /* BMDebounce.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F791D869255CE27E00A030CE /* BMThrottleDebounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMThrottleDebounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F791D86C255CE27E00A030CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F791D86D255CE27E00A030CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F791D872255CE27E00A030CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F791D873255CE27E00A030CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F791D876255CE27E00A030CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F791D878255CE27F00A030CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F791D87B255CE27F00A030CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F791D87D255CE27F00A030CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F791D87E255CE27F00A030CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F791D887255CE29800A030CE /* BMDebounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDebounce.h; sourceTree = "<group>"; };
+		F791D888255CE29800A030CE /* BMThrottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMThrottle.m; sourceTree = "<group>"; };
+		F791D889255CE29800A030CE /* BMDebounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDebounce.m; sourceTree = "<group>"; };
+		F791D88A255CE29800A030CE /* BMThrottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMThrottle.h; sourceTree = "<group>"; };
+		F791D893255CE37E00A030CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F791D896255CE4AF00A030CE /* BMThrottleDebounce.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BMThrottleDebounce.podspec; path = ../BMThrottleDebounce.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F791D866255CE27E00A030CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F791D860255CE27E00A030CE = {
+			isa = PBXGroup;
+			children = (
+				F791D893255CE37E00A030CE /* README.md */,
+				F791D896255CE4AF00A030CE /* BMThrottleDebounce.podspec */,
+				F791D86B255CE27E00A030CE /* BMThrottleDebounce */,
+				F791D86A255CE27E00A030CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F791D86A255CE27E00A030CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F791D869255CE27E00A030CE /* BMThrottleDebounce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F791D86B255CE27E00A030CE /* BMThrottleDebounce */ = {
+			isa = PBXGroup;
+			children = (
+				F791D886255CE29800A030CE /* ThrottleDebounce */,
+				F791D86C255CE27E00A030CE /* AppDelegate.h */,
+				F791D86D255CE27E00A030CE /* AppDelegate.m */,
+				F791D872255CE27E00A030CE /* ViewController.h */,
+				F791D873255CE27E00A030CE /* ViewController.m */,
+				F791D875255CE27E00A030CE /* Main.storyboard */,
+				F791D878255CE27F00A030CE /* Assets.xcassets */,
+				F791D87A255CE27F00A030CE /* LaunchScreen.storyboard */,
+				F791D87D255CE27F00A030CE /* Info.plist */,
+				F791D87E255CE27F00A030CE /* main.m */,
+			);
+			path = BMThrottleDebounce;
+			sourceTree = "<group>";
+		};
+		F791D886255CE29800A030CE /* ThrottleDebounce */ = {
+			isa = PBXGroup;
+			children = (
+				F791D887255CE29800A030CE /* BMDebounce.h */,
+				F791D889255CE29800A030CE /* BMDebounce.m */,
+				F791D888255CE29800A030CE /* BMThrottle.m */,
+				F791D88A255CE29800A030CE /* BMThrottle.h */,
+			);
+			path = ThrottleDebounce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F791D868255CE27E00A030CE /* BMThrottleDebounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F791D882255CE27F00A030CE /* Build configuration list for PBXNativeTarget "BMThrottleDebounce" */;
+			buildPhases = (
+				F791D865255CE27E00A030CE /* Sources */,
+				F791D866255CE27E00A030CE /* Frameworks */,
+				F791D867255CE27E00A030CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BMThrottleDebounce;
+			productName = BMThrottleDebounce;
+			productReference = F791D869255CE27E00A030CE /* BMThrottleDebounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F791D861255CE27E00A030CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					F791D868255CE27E00A030CE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = F791D864255CE27E00A030CE /* Build configuration list for PBXProject "BMThrottleDebounce" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F791D860255CE27E00A030CE;
+			productRefGroup = F791D86A255CE27E00A030CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F791D868255CE27E00A030CE /* BMThrottleDebounce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F791D867255CE27E00A030CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F791D87C255CE27F00A030CE /* LaunchScreen.storyboard in Resources */,
+				F791D879255CE27F00A030CE /* Assets.xcassets in Resources */,
+				F791D877255CE27E00A030CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F791D865255CE27E00A030CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F791D88B255CE29800A030CE /* BMThrottle.m in Sources */,
+				F791D88C255CE29800A030CE /* BMDebounce.m in Sources */,
+				F791D874255CE27E00A030CE /* ViewController.m in Sources */,
+				F791D86E255CE27E00A030CE /* AppDelegate.m in Sources */,
+				F791D87F255CE27F00A030CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F791D875255CE27E00A030CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F791D876255CE27E00A030CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F791D87A255CE27F00A030CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F791D87B255CE27F00A030CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F791D880255CE27F00A030CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F791D881255CE27F00A030CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F791D883255CE27F00A030CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCJKE8K5A;
+				INFOPLIST_FILE = BMThrottleDebounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomo.BMThrottleDebounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F791D884255CE27F00A030CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9PCJKE8K5A;
+				INFOPLIST_FILE = BMThrottleDebounce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bomo.BMThrottleDebounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F791D864255CE27E00A030CE /* Build configuration list for PBXProject "BMThrottleDebounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F791D880255CE27F00A030CE /* Debug */,
+				F791D881255CE27F00A030CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F791D882255CE27F00A030CE /* Build configuration list for PBXNativeTarget "BMThrottleDebounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F791D883255CE27F00A030CE /* Debug */,
+				F791D884255CE27F00A030CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F791D861255CE27E00A030CE /* Project object */;
+}
