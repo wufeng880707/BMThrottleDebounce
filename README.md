@@ -10,6 +10,10 @@ ThrottleDebounce
 * Keep your code clear
 * Thread safe
 
+## debounce/throttle demo
+
+[Demo](http://demo.nimius.net/debounce_throttle/)
+
 ## Example
 
 BMThrottle
