@@ -2,6 +2,10 @@
 
 ThrottleDebounce
 
+[![Platform](https://img.shields.io/cocoapods/p/BMThrottleDebounce.svg?style=flat)](https://github.com/BMThrottleDebounce/BMThrottleDebounce)
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/BMThrottleDebounce.svg)](https://cocoapods.org/pods/BMThrottleDebounce)
+
+
 * Easy to use.
 * Keep your code clear
 * Thread safe
