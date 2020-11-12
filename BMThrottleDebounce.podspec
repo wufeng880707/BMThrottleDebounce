@@ -6,6 +6,6 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'zhengbomo' => 'zhengbomo@hotmail.com' }
   spec.summary      = 'throttle and debounce trigger'
   spec.source       = { :git => 'https://github.com/zhengbomo/BMThrottleDebounce.git', :tag => '0.0.1' }
-  spec.source_files = 'ThrottleDebounce/*.{h,m}'
+  spec.source_files = 'Sources/BMThrottleDebounce/ThrottleDebounce/*.{h,m}'
   spec.ios.deployment_target = '9.0'
 end
